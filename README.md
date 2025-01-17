@@ -7,6 +7,38 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+# Kanban Board
+
+A Kanban Board application built with React and TypeScript for task and column management using drag-and-drop.
+
+## Features
+- Create, update, and delete columns.
+- Add, update, and delete tasks within columns.
+- Drag-and-drop functionality to reorder columns and tasks.
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/kanban-board.git
+cd kanban-board
+2. Install Dependencies
+3. Run the Development Server
+## Technologies Choices and Rationable
+1. React
+2. TypeScript
+3. @dnd-kit
+4. React Icons
+5. React Portal
+
+##Future Improvements
+1. Task Drag-and-Drop
+2. Persistence
+3. User Authentication
+5. Task and Column Filtering/Sorting
+6. Adding More Interactivity
+7. Accessibility Improvements
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
